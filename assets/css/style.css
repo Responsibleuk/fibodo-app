@@ -2280,8 +2280,18 @@ li a:hover,
 	padding-bottom: 0;
 }
 
+.slider-ind {
+	height: 450px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
 .slider .slide--item {
 	height: 850px;
+}
+
+.slider-ind .slide--item-ind {
+	height: 450px;
 }
 
 .slider .row-content {
@@ -2656,6 +2666,8 @@ li a:hover,
 /*------------------------------------*\
     #PRICING-SECTION
 \*------------------------------------*/
+
+
 .pricing-panel {
 	padding: 50px 88px;
 	position: relative;
