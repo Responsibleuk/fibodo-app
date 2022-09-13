@@ -1354,9 +1354,25 @@ section {
 	text-align: center;
 	border-radius: 0;
 	padding: 0;
-	width: 170px;
-	height: 45px;
-	line-height: 44px;
+	width: 120px;
+	height: 35px;
+	line-height: 30px;
+}
+
+.btn-nav {
+	font-family: 'PT Sans', sans-serif;
+	position: relative;
+	z-index: 2;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 0;
+	padding: 0;
+	width: 130px;
+	height: 35px;
+	line-height: 34px;
+	margin-top: 25px;
 }
 
 .btn.active,
@@ -1367,6 +1383,12 @@ section {
 }
 
 /* Button Primary */
+.btn--nav {
+	background-color: #3bf193;
+	color: #ffffff;
+	border-color: #3bf193;
+}
+
 .btn--primary {
 	background-color: #5584ff;
 	color: #ffffff;
